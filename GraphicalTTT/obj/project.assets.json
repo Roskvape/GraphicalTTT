@@ -20340,15 +20340,15 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "+mkQ5wUTJSioGTIZ/q+0DTamp4MjTJjeuW1Jl5bZlVQdwR+IgCqGgU6et2JdeUoiwnDorEjJP7cH05SuiQ4edQ==",
+      "sha512": "KYav5Tjs6Mn7GMsqnPXuGyOWagbmJ/LEtCcBNmhuj01/3+fm8BngClWMxNEW3YPMtwQkagxOK6zIkSs1wR+OeQ==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
-        "Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "microsoft.netcore.universalwindowsplatform.nuspec",
         "ref/netcore50/_._",
         "ref/uap10.0.15138/Microsoft.CSharp.dll",
         "ref/uap10.0.15138/Microsoft.CSharp.xml",
@@ -21486,7 +21486,7 @@
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "8dcKF8afW7ntMOrlx7mYIa9eEn1vX7mu8DyDRjFspieN9QRhSme88dLYW1ox4MRQXF/s67Vomnk4L6MQ2M389w==",
+      "sha512": "EGaxh2FQ+QT/P45T+LILj6jY5wQVMix/MenOymQQO8/6mWNhVlkHrua6mvaaON4MwRbWRJPXNwPiJzLsKoUnEg==",
       "type": "package",
       "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
@@ -21494,8 +21494,8 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -21676,7 +21676,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "hks9C32BJcxM94NO9J4ssE0AilhuJVPRQdA02UgP/mAL0y4dKApIzzJxzpRJ4yUk0JAWCIljToqy1Bn+G4O7tA==",
+      "sha512": "COdkVTC19mn8FKZio+INajHBk3Br/u4Z/wk9KloetL0nZ0i5izwlG7J9xzZprwZxycat8EQZaFfkm2ar3BF7Tw==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
@@ -21684,8 +21684,8 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -21853,7 +21853,7 @@
       ]
     },
     "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "W3RUaxJ/u8eUTr7Wwa0BnVBBGqFP0pALhmj5yjZogM2ChQkapZyTxO4+/FDDZYuI27OG5MhtMwoSCaVNG5Oobw==",
+      "sha512": "I2IgT0mxvN5vMJpqFoQJOnjndL8nF4awpY5l6xpSfRwPLT3ACpGl4+DClV7PE3Dxk37W0yRub7Z3taxbyjdsMQ==",
       "type": "package",
       "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
@@ -21861,8 +21861,8 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -22043,7 +22043,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "VWmLqgEnbpiwEnHjjlrNy9VLAdQy41K7htSXtKBqDqKNJbc0j0gaWGCrZjozAN9vA3m0q4BOpqqz7W+RHFXp0g==",
+      "sha512": "PmdqgMbiRRMlHP5PWjd/aLIC1MTsl/yu9xFiWPtyAVeRMcqutmCHOaSKJwOLiFsjtHiRWWJ6CkWLedAAw+xInQ==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
@@ -22051,8 +22051,8 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -22220,7 +22220,7 @@
       ]
     },
     "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "9cnu98KUQiJWWkY/5+/+5xlR/OfeSNWo88v/rqy6ks0Nat02F1KaD4JzHatwlwtLI32Oi+2hUrdEPvUhUB6uOg==",
+      "sha512": "FjEwLHVGkZoSSRKhOYlmOGmKcbABuZPjpPwRDGBqWX37wY4ns1IQBP8mPXTsEp5TM/DatL4dFDQG6aUHI15H2Q==",
       "type": "package",
       "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
@@ -22228,8 +22228,8 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -22410,7 +22410,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "C3NiwXqzKJ4pams1sAW0EAZlDphBms1Ib1CUrg5NzDkpGpAp/NYYWzv8izwFRdhvvesb0KsFo6FW66l7coPgWg==",
+      "sha512": "ui8vTycbSKccC8qoeqtGOz1UjAl1PAM6sL3KNntAb2PoX6FywiQL9I8JeQ/oYqaUwWFFKemL1Fz8W+Nut2aKIw==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.1.5",
       "files": [
@@ -22418,8 +22418,8 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -25076,18 +25076,19 @@
       ]
     },
     "System.Private.ServiceModel/4.1.1": {
-      "sha512": "xJyHuGt++ArcsoQkkOUuBxWdPvQa9P/YZ/L1W14gL7xh4XrcDu39Ejp7159qes6JlVvrOFZVoiCRj721hj1hnw==",
+      "sha512": "x0L3cf5wGa4os+hEE1zaFaAqZkcchOSOJyUltR7junRXZLrEb2DukB2zSq0SwM9P6L0hk0XIUaFXRLJGzZXjgg==",
       "type": "package",
       "path": "system.private.servicemodel/4.1.1",
       "files": [
-        "System.Private.ServiceModel.4.1.1.nupkg.sha512",
-        "System.Private.ServiceModel.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
         "runtimes/unix/lib/netstandard1.3/System.Private.ServiceModel.dll",
         "runtimes/win7/lib/netcore50/System.Private.ServiceModel.dll",
-        "runtimes/win7/lib/netstandard1.3/System.Private.ServiceModel.dll"
+        "runtimes/win7/lib/netstandard1.3/System.Private.ServiceModel.dll",
+        "system.private.servicemodel.4.1.1.nupkg.sha512",
+        "system.private.servicemodel.nuspec"
       ]
     },
     "System.Private.Uri/4.0.1": {
@@ -26548,12 +26549,11 @@
       ]
     },
     "System.ServiceModel.Duplex/4.0.2": {
-      "sha512": "AABh0/uzAPK2zsdt7BG1Ay+h3zlEVfxO7T4Ht+Zo8LMOBirEDglT0dyvaMo2Jd6lCVqTjQIyGODdtk3g61UXDg==",
+      "sha512": "u0j7HYpzGTCzZYTJFgD6BihtTU2MLVHgXUODOMkgWJ4nuewQx3HuuSTI/NmvfN32CbAYzDqxq3FTeT0BZkq9dA==",
       "type": "package",
       "path": "system.servicemodel.duplex/4.0.2",
       "files": [
-        "System.ServiceModel.Duplex.4.0.2.nupkg.sha512",
-        "System.ServiceModel.Duplex.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -26565,16 +26565,17 @@
         "ref/netcore50/System.ServiceModel.Duplex.dll",
         "ref/netstandard1.1/System.ServiceModel.Duplex.dll",
         "ref/portable-net45+win8/_._",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.servicemodel.duplex.4.0.2.nupkg.sha512",
+        "system.servicemodel.duplex.nuspec"
       ]
     },
     "System.ServiceModel.Http/4.1.1": {
-      "sha512": "Af8YqW1+/Plr+ufkvg6B9yw6kv7mOk/wO1aUWMMFJEErigoLCy7Q+mJ5dTjQFPeiLb6VaQsGlCkKD43bBQ7rvw==",
+      "sha512": "1baapobnURcjtICRjYk9Mz2nEk66wwTS4QLvrFKw0F/Sc9PIxDlySR2tV0nDI+Z+kgo6gQT8P+RDMMMBnkHlog==",
       "type": "package",
       "path": "system.servicemodel.http/4.1.1",
       "files": [
-        "System.ServiceModel.Http.4.1.1.nupkg.sha512",
-        "System.ServiceModel.Http.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -26604,16 +26605,17 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.http.4.1.1.nupkg.sha512",
+        "system.servicemodel.http.nuspec"
       ]
     },
     "System.ServiceModel.NetTcp/4.1.1": {
-      "sha512": "ozGfn/rBUgEuulq5CCEBen3bdLFePCPzg/Rdg+QrsPflr1eYAvFKR4JGSlFO+UVs6BumLsGstO8S1LuoMMr1Dg==",
+      "sha512": "GCbnHjyvz0bR3BUkKEq1aP7ynx5hN40fYRpyg3hvhXr5RZ2H5YO31eLZlA9YtY1U7IXajE9zdvBR2nQzgyg8xg==",
       "type": "package",
       "path": "system.servicemodel.nettcp/4.1.1",
       "files": [
-        "System.ServiceModel.NetTcp.4.1.1.nupkg.sha512",
-        "System.ServiceModel.NetTcp.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -26628,16 +26630,17 @@
         "ref/netstandard1.1/System.ServiceModel.NetTcp.dll",
         "ref/netstandard1.3/System.ServiceModel.NetTcp.dll",
         "ref/portable-net45+win8/_._",
-        "ref/win8/_._"
+        "ref/win8/_._",
+        "system.servicemodel.nettcp.4.1.1.nupkg.sha512",
+        "system.servicemodel.nettcp.nuspec"
       ]
     },
     "System.ServiceModel.Primitives/4.1.1": {
-      "sha512": "T7KBgQiQaxeTH9mIfKptvJhLKtYFm/riraVWY4OCesjgzgRjDPpFAlHXLv6dO4lNjkQLlgeAVwKKNGBgSrDkog==",
+      "sha512": "Hw5UjUW6Dx4L10j3etg9lk4C3vSrtccRqS0Ci8PNjTB862D0X32ePN1qWNn56h4gJgUdcyhekv+uYXsK+9FksA==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.1.1",
       "files": [
-        "System.ServiceModel.Primitives.4.1.1.nupkg.sha512",
-        "System.ServiceModel.Primitives.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -26667,16 +26670,17 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.primitives.4.1.1.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec"
       ]
     },
     "System.ServiceModel.Security/4.0.2": {
-      "sha512": "4oqvU/Upjl4q8bfj9oqI1dHv74nzpltvTcJAmDIxi+8KGlMnMOnzklh/BqonQHb6lAIVxYVmvAQlPo3lXv+P6w==",
+      "sha512": "CrIgcdNFQSGqz/WtoANWWYAlYmqdlhoxZkHJIFmXbn/X7uhknFqS3Nf60KZhE2kK7MKDxvteAe1x5Spmjx1PsQ==",
       "type": "package",
       "path": "system.servicemodel.security/4.0.2",
       "files": [
-        "System.ServiceModel.Security.4.0.2.nupkg.sha512",
-        "System.ServiceModel.Security.nuspec",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -26691,7 +26695,9 @@
         "ref/netstandard1.1/System.ServiceModel.Security.dll",
         "ref/portable-net45+win8+wp8/_._",
         "ref/win8/_._",
-        "ref/wp8/_._"
+        "ref/wp8/_._",
+        "system.servicemodel.security.4.0.2.nupkg.sha512",
+        "system.servicemodel.security.nuspec"
       ]
     },
     "System.Text.Encoding/4.0.11": {
@@ -27494,24 +27500,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roskva\\.nuget\\packages\\": {},
+    "C:\\Users\\cmoyer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roskva\\source\\repos\\GraphicalTTT\\GraphicalTTT\\GraphicalTTT.csproj",
+      "projectUniqueName": "U:\\Training\\C Sharp\\Git - GraphicalTTT\\GraphicalTTT\\GraphicalTTT.csproj",
       "projectName": "GraphicalTTT",
-      "projectPath": "C:\\Users\\Roskva\\source\\repos\\GraphicalTTT\\GraphicalTTT\\GraphicalTTT.csproj",
-      "packagesPath": "C:\\Users\\Roskva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roskva\\source\\repos\\GraphicalTTT\\GraphicalTTT\\obj\\",
+      "projectPath": "U:\\Training\\C Sharp\\Git - GraphicalTTT\\GraphicalTTT\\GraphicalTTT.csproj",
+      "packagesPath": "C:\\Users\\cmoyer\\.nuget\\packages\\",
+      "outputPath": "U:\\Training\\C Sharp\\Git - GraphicalTTT\\GraphicalTTT\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Roskva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cmoyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -27519,6 +27525,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.battle.net:6081/api/nuget/nuget-blizzard": {},
+        "http://nuget.battle.net:6081/api/nuget/nuget-servicetech": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1' x:Name="mainPage"
     x:Class="GraphicalTTT.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -7,18 +7,103 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="Tan">
+
     <Viewbox HorizontalAlignment="Stretch" Grid.RowSpan="2" VerticalAlignment="Stretch" Stretch="Uniform">
-        <Grid Background="#FFC3822B" Width="1080" Height="1200">
+        <Grid x:ConnectionId='2' x:Name="gridContainer" Background="#FF1D8D83" Width="984" Height="1200">
             <Grid.RowDefinitions>
+                <RowDefinition Height="8*"/>
                 <RowDefinition Height="10*"/>
-                <RowDefinition Height="90*"/>
+                <RowDefinition Height="82*"/>
             </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="96"/>
+                </Grid.ColumnDefinitions>
+                <Viewbox>
+                    <TextBlock Text="Tic-Tac-Toe" FontWeight="Bold" FontFamily="Broadway" FontSize="18"></TextBlock>
+                </Viewbox>
+                <Button Content="Menu" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <Viewbox>
+                                <Image Source="/Assets/Menu.png">
+                                </Image>
+                            </Viewbox>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                    <Button.Flyout>
+                        <MenuFlyout x:ConnectionId='31' x:Name="flyMenu">
+                            <MenuFlyout.MenuFlyoutPresenterStyle>
+                                <Style x:ConnectionId='32' x:Name="flyStyle" TargetType="MenuFlyoutPresenter">
+                                <Setter Property="MinWidth" Value="200"/>
+                                    <Setter Property="MaxWidth" Value="400"/>
+                                    <Setter Property="Background" Value="#FF1D8D83"/>
+                                </Style>
+                            </MenuFlyout.MenuFlyoutPresenterStyle>
+                            <MenuFlyoutItem x:ConnectionId='33' x:Name="miReset" Text="Reset"                       FontSize="24" FontFamily="Century Gothic" FontWeight="Bold"/>
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
 
+            </Grid>
+            <Grid Grid.ColumnSpan="3" Grid.Row="1">
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF04443E" Offset="0.996"/>
+                        <GradientStop Color="#FF001312" Offset="0"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFFF7400"/>
+                            <GradientStop Color="#FFFFA200" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="60*"/>
+                    </Grid.RowDefinitions>
+                    <Viewbox>
 
-            <Viewbox>
-                <TextBlock x:ConnectionId='24' x:Name="lblCurrentPlayer" HorizontalAlignment="Center" Text="O" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Padding="0,0,0,4"/>
-            </Viewbox>
-            <Grid x:ConnectionId='2' x:Name="gridBoard" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+                        <TextBlock x:ConnectionId='29' x:Name="lblO" HorizontalAlignment="Center" Text="O's  Score:" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Padding="0,0,0,4" FontFamily="Century Gothic"/>
+                    </Viewbox>
+                    <Viewbox Grid.Row="1">
+                        <TextBlock x:ConnectionId='28' x:Name="lblScoreO" HorizontalAlignment="Center" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Padding="0,0,0,4" FontFamily="Century Gothic"/>
+                    </Viewbox>
+                </Grid>
+
+                <Viewbox Grid.Column="1">
+                    <TextBlock x:ConnectionId='27' x:Name="lblCurrentPlayer" HorizontalAlignment="Center" Text="O" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Padding="0,0,0,4" FontFamily="Century Gothic" Foreground="#FFFFA200"/>
+                </Viewbox>
+
+                <Grid Grid.Column="2">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF72003A"/>
+                            <GradientStop Color="#FFBF0057" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="60*"/>
+                    </Grid.RowDefinitions>
+                    <Viewbox>
+                        <TextBlock x:ConnectionId='26' x:Name="lblX" HorizontalAlignment="Center" Text="X's  Score:" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Padding="0,0,0,4" FontFamily="Century Gothic"/>
+                    </Viewbox>
+                    <Viewbox Grid.Row="1">
+                        <TextBlock x:ConnectionId='25' x:Name="lblScoreX" HorizontalAlignment="Center" Text="0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Padding="0,0,0,4" FontFamily="Century Gothic"/>
+                    </Viewbox>
+                </Grid>
+            </Grid>
+
+            <Grid x:ConnectionId='3' x:Name="gridBoard" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="33.33*"/>
                     <RowDefinition Height="33.33*"/>
@@ -29,45 +114,43 @@
                     <ColumnDefinition Width="33.33*"/>
                     <ColumnDefinition Width="33.33*"/>
                 </Grid.ColumnDefinitions>
-                <Image x:ConnectionId='3' x:Name="imgBoard" HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/GameBoard.png" Stretch="Uniform" Canvas.ZIndex="-10" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
-                <Button x:ConnectionId='4' x:Name="btnTopLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Padding="10,10,0,0">
-                    <Image x:ConnectionId='23' x:Name="imgTopLeft" Source="Assets/X.png"  HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Image x:ConnectionId='4' x:Name="imgBoard" HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/GameBoard.png" Stretch="Uniform" Canvas.ZIndex="-10" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+                <Button x:ConnectionId='5' x:Name="btnTopLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Padding="10,10,0,0">
+                    <Image x:ConnectionId='24' x:Name="imgTopLeft" Source="Assets/X.png"  HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='5' x:Name="btnTopMid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Column="1" Padding="5,10,5,0">
-                    <Image x:ConnectionId='22' x:Name="imgTopMid" Source="Assets/X.png"  HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='6' x:Name="btnTopMid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Column="1" Padding="5,10,5,0">
+                    <Image x:ConnectionId='23' x:Name="imgTopMid" Source="Assets/X.png"  HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='6' x:Name="btnTopRight" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Column="2" Padding="0,10,10,0">
-                    <Image x:ConnectionId='21' x:Name="imgTopRight" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='7' x:Name="btnTopRight" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Column="2" Padding="0,10,10,0">
+                    <Image x:ConnectionId='22' x:Name="imgTopRight" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='7' x:Name="btnCenterLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="1" Padding="10,5,0,5">
-                    <Image x:ConnectionId='20' x:Name="imgCenterLeft" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='8' x:Name="btnCenterLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="1" Padding="10,5,0,5">
+                    <Image x:ConnectionId='21' x:Name="imgCenterLeft" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='8' x:Name="btnCenterMid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="1" Grid.Column="1" Padding="5,5,5,5">
-                    <Image x:ConnectionId='19' x:Name="imgCenterMid" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='9' x:Name="btnCenterMid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="1" Grid.Column="1" Padding="5,5,5,5">
+                    <Image x:ConnectionId='20' x:Name="imgCenterMid" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='9' x:Name="btnCenterRight" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="1" Grid.Column="2" Padding="0,5,10,5">
-                    <Image x:ConnectionId='18' x:Name="imgCenterRight" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='10' x:Name="btnCenterRight" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="1" Grid.Column="2" Padding="0,5,10,5">
+                    <Image x:ConnectionId='19' x:Name="imgCenterRight" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='10' x:Name="btnBottomLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="2" Padding="10,0,0,10">
-                    <Image x:ConnectionId='17' x:Name="imgBottomLeft" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='11' x:Name="btnBottomLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="2" Padding="10,0,0,10">
+                    <Image x:ConnectionId='18' x:Name="imgBottomLeft" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='11' x:Name="btnBottomMid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="2" Grid.Column="1" Padding="5,0,5,10">
-                    <Image x:ConnectionId='16' x:Name="imgBottomMid" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='12' x:Name="btnBottomMid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="2" Grid.Column="1" Padding="5,0,5,10">
+                    <Image x:ConnectionId='17' x:Name="imgBottomMid" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Button x:ConnectionId='12' x:Name="btnBottomRight" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="2" Grid.Column="2" Padding="0,0,10,10">
-                    <Image x:ConnectionId='15' x:Name="imgBottomRight" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
+                <Button x:ConnectionId='13' x:Name="btnBottomRight" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                       Grid.Row="2" Grid.Column="2" Padding="0,0,10,10">
+                    <Image x:ConnectionId='16' x:Name="imgBottomRight" Source="Assets/X.png" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" Opacity="0"/>
                 </Button>
-                <Rectangle x:ConnectionId='13' x:Name="rectWin" Grid.RowSpan="3" Grid.ColumnSpan="3" Fill="#4C8B3939" Canvas.ZIndex="5" Visibility="Collapsed"                          ></Rectangle>
+                <Rectangle x:ConnectionId='14' x:Name="rectWin" Grid.RowSpan="3" Grid.ColumnSpan="3" Fill="#4C8B3939" Canvas.ZIndex="5" Visibility="Collapsed"                          ></Rectangle>
                 <Viewbox Grid.Row="1" Grid.ColumnSpan="3" Margin="20,0,20,0">
                     <Border Background="#FFFFB431" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <TextBlock x:ConnectionId='14' x:Name="lblWin" HorizontalAlignment="Center" Grid.Row="1" Text="Player M Wins!" TextWrapping="Wrap" VerticalAlignment="Center" Canvas.ZIndex="10" FontSize="100" FontFamily="Arial Black" FontWeight="Bold" Grid.ColumnSpan="3" Foreground="#FF34002F" Visibility="Collapsed"                          />
+                        <TextBlock x:ConnectionId='15' x:Name="lblWin" HorizontalAlignment="Center" Grid.Row="1" Text="Player M Wins!" TextWrapping="Wrap" VerticalAlignment="Center" Canvas.ZIndex="10" FontSize="100" FontFamily="Arial Black" FontWeight="Bold" Grid.ColumnSpan="3" Foreground="#FF34002F" Visibility="Collapsed"                          />
                     </Border>
-                    
+
                 </Viewbox>
-               
+
             </Grid>
-
-
 
         </Grid>
 

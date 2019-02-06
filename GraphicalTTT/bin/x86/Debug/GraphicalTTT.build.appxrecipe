@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>TRUTHGUARD</Machine>
-    <WindowsUser>Roskva</WindowsUser>
+    <Machine>CMOYER-W10</Machine>
+    <WindowsUser>cmoyer</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,25 +10,25 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ea48af12-0911-4dfa-b3c5-654385d370ca</PackageIdentityName>
     <PackageIdentityPublisher>CN=Roskva</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\AppX</LayoutDir>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\GraphicalTTT.exe">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\GraphicalTTT.exe">
       <PackagePath>entrypoint\GraphicalTTT.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
@@ -163,16 +163,16 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
@@ -256,7 +256,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
@@ -322,19 +322,19 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\cmoyer\.nuget\packages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
@@ -370,111 +370,114 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\GameBoard.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\GameBoard.png">
       <PackagePath>Assets\GameBoard.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\O.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\Menu.png">
+      <PackagePath>Assets\Menu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\O.png">
       <PackagePath>Assets\O.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\X.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\X.png">
       <PackagePath>Assets\X.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\GraphicalTTT.xr.xml">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\GraphicalTTT.xr.xml">
       <PackagePath>GraphicalTTT.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\bin\x86\Debug\Core\GraphicalTTT.exe">
+    <AppxPackagedFile Include="U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\bin\x86\Debug\Core\GraphicalTTT.exe">
       <PackagePath>GraphicalTTT.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25915.0</Version>
+      <Version>1.1.26702.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.26702.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25915.0</Version>
+      <Version>1.1.26702.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.26702.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25915.0</Version>
+      <Version>1.1.26702.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.26702.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.26726.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.26726.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.26726.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>

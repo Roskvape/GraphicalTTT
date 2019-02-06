@@ -1,1 +1,1 @@
-C:\Users\Roskva\source\repos\GraphicalTTT\GraphicalTTT\GraphicalTTT.csproj;x86
+U:\Training\C Sharp\Git - GraphicalTTT\GraphicalTTT\GraphicalTTT.csproj;x86

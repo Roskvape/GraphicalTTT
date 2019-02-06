@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\GameBoard.png" />
+    <Content Include="Assets\Menu.png" />
     <Content Include="Assets\O.png" />
     <Content Include="Assets\X.png" />
     <Content Include="Properties\Default.rd.xml" />

@@ -14,8 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Popups;
 using Windows.UI.Xaml.Media.Imaging;
-using System.Threading;
-using System.Threading.Tasks;
+using Windows.UI;
 using Windows.UI.Core;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -35,6 +34,8 @@ namespace GraphicalTTT
         }
 
         private string currentPlayer = "O";
+        private int iOScore = 0;
+        private int iXScore = 0;
         private string[,] boardState = new string[3, 3] {
             { "empty", "empty", "empty" },
             { "empty", "empty", "empty" },
@@ -98,10 +99,12 @@ namespace GraphicalTTT
             if (currentPlayer == "O")
             {
                 SetCurrentPlayer("X");
+                lblCurrentPlayer.Foreground = new SolidColorBrush(Color.FromArgb(255, 191, 0, 87));
             }
             else
             {
                 SetCurrentPlayer("O");
+                lblCurrentPlayer.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 116, 0));
             }
         }
 
@@ -239,6 +242,16 @@ namespace GraphicalTTT
             lblWin.Text = $"Player {currentPlayer} Wins!";
             lblWin.Visibility = Visibility.Visible;
             rectWin.Visibility = Visibility.Visible;
+            if (currentPlayer == "O")
+            {
+                iOScore++;
+                lblScoreO.Text = Convert.ToString(iOScore);
+            }
+            else
+            {
+                iXScore++;
+                lblScoreX.Text = Convert.ToString(iXScore);
+            }
         }
 
         private void Reset()
@@ -268,6 +281,15 @@ namespace GraphicalTTT
             lblWin.Visibility = Visibility.Collapsed;
             rectWin.Visibility = Visibility.Collapsed;
             Reset();
+        }
+
+        private void miReset_Click(object sender, RoutedEventArgs e)
+        {
+            Reset();
+            iOScore = 0;
+            iXScore = 0;
+            lblScoreO.Text = Convert.ToString(iOScore);
+            lblScoreX.Text = Convert.ToString(iXScore);
         }
     }
 }
